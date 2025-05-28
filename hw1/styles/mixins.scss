@@ -1,0 +1,10 @@
+@mixin line {
+    content: "";
+    position: absolute;
+
+    bottom: 41px;
+    height: 2px;
+    width: 150px;
+    background-color: #6d5d3ca8;
+    display: block;
+}
