@@ -184,7 +184,7 @@ inputFilter.addEventListener("input", renderNames);
 async function fetchCurrencyData() {
     try {
         const response = await fetch(
-            "https://api.currencyapi.com/v3/latest?apikey=cur_live_7sdww4ZUYaqyAWlAfxyLdw5G76TXj90nsJFNw69e"
+            "https://api.currencyapi.com/v3/latest?apikey=cur_live_O35uaZRjpDW2RvjqP2BDjKViJ7rkXQYmrPQ9mVua"
         );
         const data = await response.json();
         return data;
@@ -256,6 +256,5 @@ scrollable.addEventListener('scroll', () => {
 })
 
 scrollBtn.addEventListener('click', () => {
-    // scrollable.style.top = `${scrollable.scrollTop + 175}px`;
     scrollable.scrollTop = 0
 })
