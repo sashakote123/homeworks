@@ -1,0 +1,12 @@
+// section {
+//     width: 1200px;
+//     margin: 0 auto;
+// }
+
+.giftList {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

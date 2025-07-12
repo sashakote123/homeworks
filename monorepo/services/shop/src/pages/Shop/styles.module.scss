@@ -1,0 +1,63 @@
+.shop {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.giftsList {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.listItem {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: #6d70ff;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemName {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.inStock {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.itemDesc {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.itemPrice {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #080dff;
+    color: white;
+    border-radius: 15px;
+
+    border: 1px white solid;
+}
