@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <section>
+        <h1>1. SLIDER</h1>
+        <div class="container-carousel">
+
+            <div class="ul-raw">
+                <ul class="carousel">
+
+                </ul>
+            </div>
+
+            <div class="btns">
+                <button class="left-arrow">⇦</button>
+                <button class="right-arrow">⇨</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+        <h1>2. FORM</h1>
+
+        <div class="container">
+            <form class="form" action="">
+                <div class="form__title">Contact information</div>
+                <div class="form__subtitle">FIO</div>
+                <input id="input-name" class="form__input" type="text" />
+                <div class="form__alert">Use only letters</div>
+
+                <div class="form__subtitle">Your password</div>
+                <input id="input-password" class="form__input" type="password" />
+                <div class="form__alert">Not use -*/\_</div>
+
+                <button id="main-btn" class="form__btn">Continue</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>3. SEARCH AND FILTER</h1>
+        <div class="container">
+            <div>Filterable List</div>
+            <input id="input-filter" type="text" />
+            <div id="names-list"></div>
+        </div>
+    </section>
+
+    <section>
+        <h1>4. CONVERTER CURRENCY</h1>
+        <div class="container">
+            <div class="converter">
+                <div class="left">
+                    <div class="converter__title">Exchange rate in internet bank</div>
+                    <div class="converter__subtitle">Currency</div>
+                    <ul class="currency__list">
+                        <li class="currency__item">
+                            <img src="./usd.svg" alt="123" class="item__image">
+                            <div id="usdName" class="item__name">USD:</div>
+                            <div id="usd" class="item__value">123</div>
+                        </li>
+                        <li class="currency__item">
+                            <img src="./rub.svg" alt="123" class="item__image">
+                            <div id="rubName" class="item__name">RUB:</div>
+                            <div id="rub" class="item__value">123</div>
+                        </li>
+                        <li class="currency__item">
+                            <img src="./eur.svg" alt="123" class="item__image">
+                            <div id="eurName" class="item__name">EUR:</div>
+                            <div id="eur" class="item__value">123</div>
+                        </li>
+                        <li class="currency__item">
+                            <img src="./chf.svg" alt="123" class="item__image">
+                            <div id="chfName" class="item__name">CHF:</div>
+                            <div id="chf" class="item__value">123</div>
+                        </li>
+                        <li class="currency__item">
+                            <img src="./cny.svg" alt="123" class="item__image">
+                            <div id="cnyName" class="item__name">CNY:</div>
+                            <div id="cny" class="item__value">123</div>
+                        </li>
+                        <li class="currency__item">
+                            <img src="./gbp.svg" alt="123" class="item__image">
+                            <div id="gbpName" class="item__name">GBP:</div>
+                            <div id="gbp" class="item__value">123</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <div class="right__meta">
+                        Update every 15 minutes
+                        <div id="metaDate"></div>
+                    </div>
+                    <img src="./bank.svg" alt="" class="right__photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h1>5. BUTTON UP*</h1>
+        <div class="container">
+            <div class="scrollable">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, temporibus maiores. Quis corporis
+                excepturi quasi est rem, quo odit eius iure consectetur voluptates aut explicabo odio! Fugit suscipit
+                minima similique.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta pariatur voluptas velit vitae
+                vel, eligendi, nam explicabo, officiis labore nesciunt minima recusandae quos aut! Libero assumenda
+                ratione quia illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam exercitationem
+                eius, perspiciatis minus at itaque unde, veritatis tempora quia vitae similique praesentium molestiae
+                error pariatur aliquid incidunt odio iure asperiores. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Aperiam dignissimos, adipisci laudantium consectetur reiciendis maiores nisi nam fugit, saepe ab
+                autem exercitationem, ea fuga ut magnam facere quasi facilis tempore. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Distinctio dolorum ullam, veritatis optio ducimus dicta tempora et rerum
+                repellendus laborum in quo, perspiciatis numquam? Laboriosam itaque repudiandae earum? Eveniet,
+                praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quaerat nobis error
+                magnam temporibus, odio dolores numquam similique dicta sunt sapiente? Illo eos voluptatem placeat
+                delectus natus molestias, a nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                pariatur perferendis amet dicta sequi velit eum minus ad beatae doloribus voluptatum quibusdam possimus
+                quia, deleniti alias ipsum, eligendi mollitia aut.
+
+                <img id="scrollBtn" src="./up.svg" alt="up">
+
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+
+</html>
